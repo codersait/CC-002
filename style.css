@@ -9,8 +9,7 @@
   padding: 1rem 2rem;
   margin: auto;
   display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
+  flex-wrap: wrap;
   margin-top: 5rem;
   border: 2px solid dodgerblue;
 }
@@ -33,11 +32,11 @@ p.desc {
   max-width: 1000px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 665px) {
   .blog {
-    flex-direction: row;
+    flex-wrap: nowrap;
   }
   .blog-body {
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 }
